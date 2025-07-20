@@ -11,7 +11,59 @@ const questions = [
       "Teach only cognitive domain skills"
     ],
     correct: 1
-  },
+  }
+    // SECTION A: General Teaching Knowledge (15 Questions)
+    ,{ question: "What is the main purpose of lesson planning?", genre: "General Teaching Knowledge", score: 1, options: ["To test students", "To organize school events", "To guide teaching and learning", "To punish learners"], correct: 2 },
+    { question: "Which of the following is a child-centered method of teaching?", genre: "General Teaching Knowledge", score: 1, options: ["Dictation", "Lecture", "Group work", "Punishment"], correct: 2 },
+    { question: "What does continuous assessment mean?", genre: "General Teaching Knowledge", score: 1, options: ["Testing at the end of the year", "Giving learners homework daily", "Regular assessment throughout learning", "Assessing only top students"], correct: 2 },
+    { question: "Which document outlines the curriculum for each class?", genre: "General Teaching Knowledge", score: 1, options: ["Textbook", "Teaching plan", "Scheme of work", "Syllabus"], correct: 3 },
+    { question: "What is the role of a scheme of work?", genre: "General Teaching Knowledge", score: 1, options: ["To punish children", "To plan weekly lessons", "To replace the syllabus", "To guide homework"], correct: 1 },
+    { question: "Which one is NOT a learning material?", genre: "General Teaching Knowledge", score: 1, options: ["Blackboard", "Textbook", "Wall chart", "Whistle"], correct: 3 },
+    { question: "Effective teaching should be:", genre: "General Teaching Knowledge", score: 1, options: ["Teacher-centered", "Boring", "Interactive and inclusive", "Full of tests"], correct: 2 },
+    { question: "Which method encourages learners to discover knowledge themselves?", genre: "General Teaching Knowledge", score: 1, options: ["Lecture", "Demonstration", "Discovery", "Recitation"], correct: 2 },
+    { question: "Which of the following best describes a good teacher?", genre: "General Teaching Knowledge", score: 1, options: ["Always uses textbooks", "Is harsh with slow learners", "Encourages learners and supports all", "Only teaches clever learners"], correct: 2 },
+    { question: "Which of these is a formal assessment method?", genre: "General Teaching Knowledge", score: 1, options: ["Asking oral questions", "Homework", "End of term test", "Observation"], correct: 2 },
+    { question: "Which statement is true about inclusive education?", genre: "General Teaching Knowledge", score: 1, options: ["Only bright learners are included", "All learners, including those with disabilities, are considered", "Teachers teach only English", "Learning is done at home"], correct: 1 },
+    { question: "Teaching and learning resources should be:", genre: "General Teaching Knowledge", score: 1, options: ["Expensive", "Only bought from shops", "Relevant and appropriate", "Heavy and big"], correct: 2 },
+    { question: "Which one is NOT a record kept by a class teacher?", genre: "General Teaching Knowledge", score: 1, options: ["Attendance register", "Progress report", "School budget", "Scheme of work"], correct: 2 },
+    { question: "Which part of the lesson comes first?", genre: "General Teaching Knowledge", score: 1, options: ["Lesson development", "Conclusion", "Introduction", "Evaluation"], correct: 2 },
+    { question: "When learners fail to understand a lesson, the teacher should:", genre: "General Teaching Knowledge", score: 1, options: ["Ignore them", "Punish them", "Repeat using another method", "Send them home"], correct: 2 },
+
+    // SECTION B: Child Development and Psychology (10 Questions)
+    { question: "At what age does a child usually start primary school?", genre: "Child Development", score: 1, options: ["2–3 years", "4–5 years", "6–7 years", "10 years"], correct: 2 },
+    { question: "Which of the following is a sign of a child with hearing problems?", genre: "Child Development", score: 1, options: ["Talks too much", "Always answers questions first", "Does not respond when called", "Reads loudly"], correct: 2 },
+    { question: "A slow learner should be:", genre: "Child Development", score: 1, options: ["Punished", "Ignored", "Given extra support", "Taken to another school"], correct: 2 },
+    { question: "Which factor affects a child’s learning?", genre: "Child Development", score: 1, options: ["Name", "Background and health", "Size of shoes", "Colour of clothes"], correct: 1 },
+    { question: "Which stage of development is marked by fast growth and curiosity?", genre: "Child Development", score: 1, options: ["Infancy", "Adulthood", "Childhood", "Old age"], correct: 2 },
+    { question: "What is peer learning?", genre: "Child Development", score: 1, options: ["Learning with older people", "Learning with parents", "Learning from friends", "Learning alone"], correct: 2 },
+    { question: "Why is play important in early childhood?", genre: "Child Development", score: 1, options: ["It wastes time", "It promotes learning and social skills", "It is only for fun", "It makes learners tired"], correct: 1 },
+    { question: "When a child is always alone and quiet in class, the teacher should:", genre: "Child Development", score: 1, options: ["Shout at them", "Encourage and support the child", "Send them home", "Ignore them"], correct: 1 },
+    { question: "Motivation in learners can be increased by:", genre: "Child Development", score: 1, options: ["Punishing them", "Praising effort and progress", "Ignoring good work", "Comparing them with others"], correct: 1 },
+    { question: "Which activity helps in developing fine motor skills?", genre: "Child Development", score: 1, options: ["Running", "Climbing", "Drawing and cutting", "Jumping"], correct: 2 },
+
+    // SECTION C: Mathematics (15 Questions)
+    { question: "What is the value of 7 × 6?", genre: "Mathematics", score: 1, options: ["36", "42", "48", "56"], correct: 1 },
+    { question: "What is ⅓ of 18?", genre: "Mathematics", score: 1, options: ["6", "3", "9", "12"], correct: 0 },
+    { question: "What is the place value of 5 in 352?", genre: "Mathematics", score: 1, options: ["Tens", "Hundreds", "Ones", "Thousands"], correct: 0 },
+    { question: "Which number is both even and a multiple of 3?", genre: "Mathematics", score: 1, options: ["9", "8", "6", "7"], correct: 2 },
+    { question: "Which shape has 4 equal sides and 4 right angles?", genre: "Mathematics", score: 1, options: ["Triangle", "Circle", "Rectangle", "Square"], correct: 3 },
+    { question: "What is 100 minus 75?", genre: "Mathematics", score: 1, options: ["25", "30", "15", "35"], correct: 0 },
+    { question: "What is the next number in this pattern: 2, 4, 6, 8, ___?", genre: "Mathematics", score: 1, options: ["11", "10", "9", "7"], correct: 1 },
+    { question: "How many centimeters are in a meter?", genre: "Mathematics", score: 1, options: ["10", "100", "1000", "50"], correct: 1 },
+    { question: "Which of these is a right angle?", genre: "Mathematics", score: 1, options: ["60°", "90°", "120°", "45°"], correct: 1 },
+    { question: "What is the sum of 23 and 47?", genre: "Mathematics", score: 1, options: ["60", "50", "70", "65"], correct: 2 },
+    { question: "A triangle has how many sides?", genre: "Mathematics", score: 1, options: ["2", "3", "4", "5"], correct: 1 },
+    { question: "Which symbol means ‘greater than’?", genre: "Mathematics", score: 1, options: ["=", "<", ">", "+"], correct: 2 },
+    { question: "What is ¼ of 40?", genre: "Mathematics", score: 1, options: ["10", "15", "20", "5"], correct: 0 },
+    { question: "If 1 book costs K500, how much do 3 books cost?", genre: "Mathematics", score: 1, options: ["K1000", "K1200", "K1500", "K2000"], correct: 2 },
+    { question: "What is 9 squared (9²)?", genre: "Mathematics", score: 1, options: ["18", "27", "81", "72"], correct: 2 },
+
+    // SECTION D: Classroom Management and Professionalism (10 Questions)
+    { question: "Which action shows professionalism in teaching?", genre: "Classroom Management", score: 1, options: ["Coming late", "Shouting at learners", "Dressing appropriately and preparing lessons", "Ignoring school rules"], correct: 2 },
+    { question: "What should a teacher do if learners are making noise?", genre: "Classroom Management", score: 1, options: ["Shout back", "Beat them", "Use class rules and correct them calmly", "Leave the class"], correct: 2 },
+    { question: "Which of the following encourages discipline?", genre: "Classroom Management", score: 1, options: ["Clear rules and expectations", "Ignoring bad behavior", "Giving sweets", "Fear and punishment"], correct: 0 },
+    { question: "Which quality is most important for a teacher?", genre: "Classroom Management", score: 1, options: ["Laziness", "Patience", "Harshness", "Shyness"], correct: 1 },
+    
   {
     question: "Which teaching method is recommended in the IPTE syllabus for facilitating learning in the affective domain?",
     genre: "Learning and Teaching",
