@@ -2,8 +2,10 @@
 
 body{
 	background:url("https://www.ei-ie.org/image/yKzRWsLsHGmUYWz7ThSTrM7yKi51jgTkE49Jvy16.jpg/lead.jpg");
-	background-size:cover;
+	background-size:100%;
+background-repeat:no-repeat;
 	background-origin:center;
+
 }
 
 .blur{
