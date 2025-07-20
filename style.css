@@ -1,12 +1,12 @@
-
-
-body{
-	background:url("https://www.ei-ie.org/image/yKzRWsLsHGmUYWz7ThSTrM7yKi51jgTkE49Jvy16.jpg/lead.jpg");
-	background-size:100%;
-background-repeat:no-repeat;
-	background-origin:center;
-
+body {
+  background: url("https://www.ei-ie.org/image/yKzRWsLsHGmUYWz7ThSTrM7yKi51jgTkE49Jvy16.jpg/lead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
 }
+
 
 .blur{
 	backdrop-filter:blur(1px);
